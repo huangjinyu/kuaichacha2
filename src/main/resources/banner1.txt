@@ -1,0 +1,13 @@
+美好日记
+${spring.datasource.type}
+spring-boot.version = ${spring-boot.version}
+spring-boot.formatted-version = ${spring-boot.formatted-version}
+application.title = ${application.title}
+application.version = ${application.version}
+${AnsiColor.BRIGHT_YELLOW}
+██╗  ██╗██╗   ██╗ █████╗ ██╗     ██████╗██╗  ██╗ █████╗      ██████╗██╗  ██╗ █████╗
+██║ ██╔╝██║   ██║██╔══██╗██║    ██╔════╝██║  ██║██╔══██╗    ██╔════╝██║  ██║██╔══██╗
+█████╔╝ ██║   ██║███████║██║    ██║     ███████║███████║    ██║     ███████║███████║
+██╔═██╗ ██║   ██║██╔══██║██║    ██║     ██╔══██║██╔══██║    ██║     ██╔══██║██╔══██║
+██║  ██╗╚██████╔╝██║  ██║██║    ╚██████╗██║  ██║██║  ██║    ╚██████╗██║  ██║██║  ██║
+╚═╝  ╚═╝ ╚═════╝ ╚═╝  ╚═╝╚═╝     ╚═════╝╚═╝  ╚═╝╚═╝  ╚═╝     ╚═════╝╚═╝  ╚═╝╚═╝  ╚═╝

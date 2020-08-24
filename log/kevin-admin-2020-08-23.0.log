@@ -1,0 +1,174 @@
+2020-08-23 08:50:11.852 INFO  Spring Security Debugger Line:54  - 
+
+************************************************************
+
+Request received for OPTIONS '/hello2/testcors?time=1':
+
+org.apache.catalina.connector.RequestFacade@dbb38ad
+
+servletPath:/hello2/testcors
+pathInfo:null
+headers: 
+origin: http://localhost:8613
+referer: http://localhost:8613/
+user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36 Edge/18.18362
+cache-control: max-age=0
+access-control-request-method: PUT
+accept: */*
+accept-language: zh-CN
+accept-encoding: gzip, deflate
+host: localhost:8888
+content-length: 0
+connection: Keep-Alive
+
+
+Security filter chain: [
+  WebAsyncManagerIntegrationFilter
+  SecurityContextPersistenceFilter
+  HeaderWriterFilter
+  CorsFilter
+  LogoutFilter
+  JwtLoginFilter
+  JwtAuthorizationFilter
+  RequestCacheAwareFilter
+  SecurityContextHolderAwareRequestFilter
+  AnonymousAuthenticationFilter
+  SessionManagementFilter
+  ExceptionTranslationFilter
+  FilterSecurityInterceptor
+]
+
+
+************************************************************
+
+
+2020-08-23 08:50:11.903 INFO  Spring Security Debugger Line:54  - 
+
+************************************************************
+
+Request received for PUT '/hello2/testcors?time=1':
+
+org.apache.catalina.connector.RequestFacade@dbb38ad
+
+servletPath:/hello2/testcors
+pathInfo:null
+headers: 
+origin: http://localhost:8613
+referer: http://localhost:8613/
+user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36 Edge/18.18362
+cache-control: max-age=0
+accept: application/json, text/plain, */*
+accept-language: zh-CN
+accept-encoding: gzip, deflate
+host: localhost:8888
+content-length: 0
+connection: Keep-Alive
+
+
+Security filter chain: [
+  WebAsyncManagerIntegrationFilter
+  SecurityContextPersistenceFilter
+  HeaderWriterFilter
+  CorsFilter
+  LogoutFilter
+  JwtLoginFilter
+  JwtAuthorizationFilter
+  RequestCacheAwareFilter
+  SecurityContextHolderAwareRequestFilter
+  AnonymousAuthenticationFilter
+  SessionManagementFilter
+  ExceptionTranslationFilter
+  FilterSecurityInterceptor
+]
+
+
+************************************************************
+
+
+2020-08-23 08:50:27.655 INFO  Spring Security Debugger Line:54  - 
+
+************************************************************
+
+Request received for OPTIONS '/hello2/testcors?time=2':
+
+org.apache.catalina.connector.RequestFacade@dbb38ad
+
+servletPath:/hello2/testcors
+pathInfo:null
+headers: 
+origin: http://localhost:8613
+referer: http://localhost:8613/
+user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36 Edge/18.18362
+cache-control: max-age=0
+access-control-request-method: PUT
+accept: */*
+accept-language: zh-CN
+accept-encoding: gzip, deflate
+host: localhost:8888
+content-length: 0
+connection: Keep-Alive
+
+
+Security filter chain: [
+  WebAsyncManagerIntegrationFilter
+  SecurityContextPersistenceFilter
+  HeaderWriterFilter
+  CorsFilter
+  LogoutFilter
+  JwtLoginFilter
+  JwtAuthorizationFilter
+  RequestCacheAwareFilter
+  SecurityContextHolderAwareRequestFilter
+  AnonymousAuthenticationFilter
+  SessionManagementFilter
+  ExceptionTranslationFilter
+  FilterSecurityInterceptor
+]
+
+
+************************************************************
+
+
+2020-08-23 08:50:27.660 INFO  Spring Security Debugger Line:54  - 
+
+************************************************************
+
+Request received for PUT '/hello2/testcors?time=2':
+
+org.apache.catalina.connector.RequestFacade@dbb38ad
+
+servletPath:/hello2/testcors
+pathInfo:null
+headers: 
+origin: http://localhost:8613
+referer: http://localhost:8613/
+user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36 Edge/18.18362
+cache-control: max-age=0
+accept: application/json, text/plain, */*
+accept-language: zh-CN
+accept-encoding: gzip, deflate
+host: localhost:8888
+content-length: 0
+connection: Keep-Alive
+
+
+Security filter chain: [
+  WebAsyncManagerIntegrationFilter
+  SecurityContextPersistenceFilter
+  HeaderWriterFilter
+  CorsFilter
+  LogoutFilter
+  JwtLoginFilter
+  JwtAuthorizationFilter
+  RequestCacheAwareFilter
+  SecurityContextHolderAwareRequestFilter
+  AnonymousAuthenticationFilter
+  SessionManagementFilter
+  ExceptionTranslationFilter
+  FilterSecurityInterceptor
+]
+
+
+************************************************************
+
+

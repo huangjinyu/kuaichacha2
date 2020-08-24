@@ -1,0 +1,16 @@
+[2020-07-07 10:04:35.911] [tartedMain] [DEBUG] [.ClasspathLoggingApplicationListener:54  ] : Application failed to start with classpath: [file:/F:/javaee/IdeaProjects/kuaichacha/target/classes/]
+[2020-07-07 10:04:56.039] [Thread-501] [DEBUG] [o.s.boot.devtools.restart.Restarter :84  ] : Created RestartClassLoader org.springframework.boot.devtools.restart.classloader.RestartClassLoader@4683a9b7
+[2020-07-07 10:04:56.040] [Thread-501] [DEBUG] [o.s.boot.devtools.restart.Restarter :281 ] : Starting application com.kcc.App2 with URLs [file:/F:/javaee/IdeaProjects/kuaichacha/target/classes/]
+[2020-07-07 10:04:56.137] [tartedMain] [DEBUG] [.ClasspathLoggingApplicationListener:54  ] : Application failed to start with classpath: [file:/F:/javaee/IdeaProjects/kuaichacha/target/classes/]
+[2020-07-07 10:06:43.575] [tartedMain] [DEBUG] [o.s.boot.devtools.restart.Restarter :222 ] : Creating new Restarter for thread Thread[main,5,main]
+[2020-07-07 10:06:43.625] [tartedMain] [DEBUG] [o.s.boot.devtools.restart.Restarter :222 ] : Immediately restarting application
+[2020-07-07 10:06:43.626] [tartedMain] [DEBUG] [o.s.boot.devtools.restart.Restarter :222 ] : Created RestartClassLoader org.springframework.boot.devtools.restart.classloader.RestartClassLoader@2d5b9a74
+[2020-07-07 10:06:43.626] [tartedMain] [DEBUG] [o.s.boot.devtools.restart.Restarter :222 ] : Starting application com.kcc.App2 with URLs [file:/F:/javaee/IdeaProjects/kuaichacha/target/classes/]
+[2020-07-07 10:06:43.626] [tartedMain] [DEBUG] [.ClasspathLoggingApplicationListener:54  ] : Application failed to start with classpath: [file:/F:/javaee/IdeaProjects/kuaichacha/target/classes/]
+[2020-07-07 10:06:43.574] [nd-preinit] [DEBUG] [.m.ResourceBundleMessageInterpolator:89  ] : Loaded expression factory via original TCCL
+[2020-07-07 10:06:43.634] [nd-preinit] [DEBUG] [o.h.v.i.engine.ValidatorFactoryImpl :578 ] : HV000234: Using org.hibernate.validator.messageinterpolation.ResourceBundleMessageInterpolator as ValidatorFactory-scoped message interpolator.
+[2020-07-07 10:06:43.634] [nd-preinit] [DEBUG] [o.h.v.i.engine.ValidatorFactoryImpl :579 ] : HV000234: Using org.hibernate.validator.internal.engine.resolver.TraverseAllTraversableResolver as ValidatorFactory-scoped traversable resolver.
+[2020-07-07 10:06:43.634] [nd-preinit] [DEBUG] [o.h.v.i.engine.ValidatorFactoryImpl :580 ] : HV000234: Using org.hibernate.validator.internal.util.ExecutableParameterNameProvider as ValidatorFactory-scoped parameter name provider.
+[2020-07-07 10:06:43.634] [nd-preinit] [DEBUG] [o.h.v.i.engine.ValidatorFactoryImpl :581 ] : HV000234: Using org.hibernate.validator.internal.engine.DefaultClockProvider as ValidatorFactory-scoped clock provider.
+[2020-07-07 10:06:43.635] [nd-preinit] [DEBUG] [o.h.v.i.engine.ValidatorFactoryImpl :582 ] : HV000234: Using org.hibernate.validator.internal.engine.scripting.DefaultScriptEvaluatorFactory as ValidatorFactory-scoped script evaluator factory.
+pattern_IS_UNDEFINEDpattern_IS_UNDEFINEDpattern_IS_UNDEFINEDpattern_IS_UNDEFINEDpattern_IS_UNDEFINED

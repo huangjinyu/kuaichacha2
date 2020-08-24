@@ -1,0 +1,114 @@
+{
+  "groups": [
+    {
+      "name": "goods.settings",
+      "type": "com.hqz.conf.GoodsServiceProperties",
+      "sourceType": "com.hqz.conf.GoodsServiceProperties"
+    },
+    {
+      "name": "jdbc",
+      "type": "com.kcc.pojo.MyDataSource",
+      "sourceType": "com.kcc.conf.JdbcConfiguration",
+      "sourceMethod": "myDataSource()"
+    },
+    {
+      "name": "jdbc",
+      "type": "com.kcc.conf.JdbcProperties",
+      "sourceType": "com.kcc.conf.JdbcProperties"
+    },
+    {
+      "name": "kuaichacha.settings",
+      "type": "com.kcc.conf.KuaichachaProperties",
+      "sourceType": "com.kcc.conf.KuaichachaAutoConfiguration",
+      "sourceMethod": "kuaichachaProperties()"
+    },
+    {
+      "name": "kuaichacha.settings",
+      "type": "com.kcc.conf.KuaichachaProperties2",
+      "sourceType": "com.kcc.conf.KuaichachaProperties2"
+    },
+    {
+      "name": "myprops",
+      "type": "com.kcc.conf.MyProps",
+      "sourceType": "com.kcc.conf.MyProps"
+    }
+  ],
+  "properties": [
+    {
+      "name": "jdbc.driver-class-name",
+      "type": "java.lang.String",
+      "sourceType": "com.kcc.pojo.MyDataSource"
+    },
+    {
+      "name": "jdbc.driver-class-name",
+      "type": "java.lang.String",
+      "sourceType": "com.kcc.conf.JdbcProperties"
+    },
+    {
+      "name": "jdbc.password",
+      "type": "java.lang.String",
+      "sourceType": "com.kcc.pojo.MyDataSource"
+    },
+    {
+      "name": "jdbc.password",
+      "type": "java.lang.String",
+      "sourceType": "com.kcc.conf.JdbcProperties"
+    },
+    {
+      "name": "jdbc.timeout",
+      "type": "java.lang.String",
+      "sourceType": "com.kcc.pojo.MyDataSource"
+    },
+    {
+      "name": "jdbc.url",
+      "type": "java.lang.String",
+      "sourceType": "com.kcc.pojo.MyDataSource"
+    },
+    {
+      "name": "jdbc.url",
+      "type": "java.lang.String",
+      "sourceType": "com.kcc.conf.JdbcProperties"
+    },
+    {
+      "name": "jdbc.username",
+      "type": "java.lang.String",
+      "sourceType": "com.kcc.pojo.MyDataSource"
+    },
+    {
+      "name": "jdbc.username",
+      "type": "java.lang.String",
+      "sourceType": "com.kcc.conf.JdbcProperties"
+    },
+    {
+      "name": "kuaichacha.settings.bean-name",
+      "type": "java.lang.String",
+      "sourceType": "com.kcc.conf.KuaichachaProperties2"
+    },
+    {
+      "name": "kuaichacha.settings.name",
+      "type": "java.lang.String",
+      "sourceType": "com.kcc.conf.KuaichachaProperties"
+    },
+    {
+      "name": "kuaichacha.settings.name",
+      "type": "java.lang.String",
+      "sourceType": "com.kcc.conf.KuaichachaProperties2"
+    },
+    {
+      "name": "kuaichacha.settings.version",
+      "type": "java.lang.String",
+      "sourceType": "com.kcc.conf.KuaichachaProperties"
+    },
+    {
+      "name": "kuaichacha.settings.version",
+      "type": "java.lang.String",
+      "sourceType": "com.kcc.conf.KuaichachaProperties2"
+    },
+    {
+      "name": "myprops.hello",
+      "type": "java.lang.String",
+      "sourceType": "com.kcc.conf.MyProps"
+    }
+  ],
+  "hints": []
+}

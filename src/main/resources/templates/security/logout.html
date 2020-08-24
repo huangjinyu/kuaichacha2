@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>退出</title>
+</head>
+<body>
+<form action="/logout" method="post">
+    <input type="hidden" th:value="${_csrf.token}" th:name="${_csrf.parameterName}"/>
+    <button type="submit">注销</button>
+</form>
+<a href="/logout">退出</a>
+<!--<form action="/security/logout" method="post">-->
+<!--    <button type="submit">注销</button>-->
+<!--</form>-->
+<!--<a href="/security/logout">退出</a>-->
+</body>
+</html>

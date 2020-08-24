@@ -1,0 +1,141 @@
+{
+  "groups": [
+    {
+      "name": "goods.settings",
+      "type": "com.hqz.conf.GoodsServiceProperties",
+      "sourceType": "com.hqz.conf.GoodsServiceProperties"
+    },
+    {
+      "name": "jdbc",
+      "type": "com.kcc.pojo.MyDataSource",
+      "sourceType": "com.kcc.conf.JdbcConfiguration",
+      "sourceMethod": "myDataSource()"
+    },
+    {
+      "name": "jdbc",
+      "type": "com.kcc.conf.JdbcProperties",
+      "sourceType": "com.kcc.conf.JdbcProperties"
+    },
+    {
+      "name": "kuaichacha.settings",
+      "type": "com.kcc.conf.KuaichachaProperties",
+      "sourceType": "com.kcc.conf.KuaichachaAutoConfiguration",
+      "sourceMethod": "kuaichachaProperties()"
+    },
+    {
+      "name": "kuaichacha.settings",
+      "type": "com.kcc.conf.KuaichachaProperties2",
+      "sourceType": "com.kcc.conf.KuaichachaProperties2"
+    },
+    {
+      "name": "myprops",
+      "type": "com.kcc.conf.MyProps",
+      "sourceType": "com.kcc.conf.MyProps"
+    },
+    {
+      "name": "security.jwt.token",
+      "type": "com.kcc.core.security.SecurityConfiguration",
+      "sourceType": "com.kcc.core.security.SecurityConfiguration"
+    }
+  ],
+  "properties": [
+    {
+      "name": "jdbc.driver-class-name",
+      "type": "java.lang.String",
+      "sourceType": "com.kcc.pojo.MyDataSource"
+    },
+    {
+      "name": "jdbc.driver-class-name",
+      "type": "java.lang.String",
+      "sourceType": "com.kcc.conf.JdbcProperties"
+    },
+    {
+      "name": "jdbc.password",
+      "type": "java.lang.String",
+      "sourceType": "com.kcc.pojo.MyDataSource"
+    },
+    {
+      "name": "jdbc.password",
+      "type": "java.lang.String",
+      "sourceType": "com.kcc.conf.JdbcProperties"
+    },
+    {
+      "name": "jdbc.timeout",
+      "type": "java.lang.String",
+      "sourceType": "com.kcc.pojo.MyDataSource"
+    },
+    {
+      "name": "jdbc.url",
+      "type": "java.lang.String",
+      "sourceType": "com.kcc.pojo.MyDataSource"
+    },
+    {
+      "name": "jdbc.url",
+      "type": "java.lang.String",
+      "sourceType": "com.kcc.conf.JdbcProperties"
+    },
+    {
+      "name": "jdbc.username",
+      "type": "java.lang.String",
+      "sourceType": "com.kcc.pojo.MyDataSource"
+    },
+    {
+      "name": "jdbc.username",
+      "type": "java.lang.String",
+      "sourceType": "com.kcc.conf.JdbcProperties"
+    },
+    {
+      "name": "kuaichacha.settings.bean-name",
+      "type": "java.lang.String",
+      "sourceType": "com.kcc.conf.KuaichachaProperties2"
+    },
+    {
+      "name": "kuaichacha.settings.name",
+      "type": "java.lang.String",
+      "sourceType": "com.kcc.conf.KuaichachaProperties"
+    },
+    {
+      "name": "kuaichacha.settings.name",
+      "type": "java.lang.String",
+      "sourceType": "com.kcc.conf.KuaichachaProperties2"
+    },
+    {
+      "name": "kuaichacha.settings.version",
+      "type": "java.lang.String",
+      "sourceType": "com.kcc.conf.KuaichachaProperties"
+    },
+    {
+      "name": "kuaichacha.settings.version",
+      "type": "java.lang.String",
+      "sourceType": "com.kcc.conf.KuaichachaProperties2"
+    },
+    {
+      "name": "myprops.hello",
+      "type": "java.lang.String",
+      "sourceType": "com.kcc.conf.MyProps"
+    },
+    {
+      "name": "security.jwt.token.expiration",
+      "type": "java.lang.Long",
+      "sourceType": "com.kcc.core.security.SecurityConfiguration"
+    },
+    {
+      "name": "security.jwt.token.issuer",
+      "type": "java.lang.String",
+      "sourceType": "com.kcc.core.security.SecurityConfiguration"
+    },
+    {
+      "name": "security.jwt.token.secret",
+      "type": "java.lang.String",
+      "description": "密钥很重要，需要隔一段时间进行修改，密钥一旦公开用户信息将会不安全",
+      "sourceType": "com.kcc.core.security.SecurityConfiguration"
+    },
+    {
+      "name": "security.jwt.token.secret-salt",
+      "type": "java.lang.String",
+      "description": "盐，用于混淆加密",
+      "sourceType": "com.kcc.core.security.SecurityConfiguration"
+    }
+  ],
+  "hints": []
+}

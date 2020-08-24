@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <!-- CSRF -->
+<!--    <meta name="_csrf" th:content="${_csrf.token}"/>-->
+    <!-- default header name is X-CSRF-TOKEN -->
+<!--    <meta name="_csrf_header" th:content="${_csrf.headerName}"/>-->
+    <title>登录</title>
+</head>
+<body>
+<div th:if="${param.error}">
+    用户名或密码错误
+</div>
+<div th:if="${param.logout}">
+    你已经退出
+</div>
+<form action="/security/login" method="post">
+<!--    <img src="http://localhost:8888/img/p1.jpg" width="100" height="100"/>-->
+<!--    <img src="http://localhost:8888/img/g1.jpg" width="100" height="100"/>-->
+<!--    <img src="http://localhost:8888/img/p3.jpg" width="100" height="100"/>-->
+<!--    <img src="http://localhost:8888/img/p4.jpg" width="100" height="100"/>-->
+    <div>用户名：<input type="text" name="username"/></div>
+    <div>密码：<input type="password" name="password"/></div>
+    <div>记住密码：<input type="checkbox" name="remember-me"/></div>
+    <input type="hidden" th:value="${_csrf.token}" th:name="${_csrf.parameterName}"/>
+    <div><input type="submit" value="登录"/></div>
+</form>
+</body>
+</html>
+
+<!--<!DOCTYPE html>-->
+<!--<html xmlns:th="http://www.thymeleaf.org">-->
+<!--<head>-->
+<!--    <meta charset="UTF-8">-->
+
+<!--    <title>登录</title>-->
+<!--</head>-->
+<!--<body>-->
+<!--<form action="/security/login" method="post">-->
+<!--    <img src="http://localhost:8888/img/p1.jpg" width="100" height="100"/>-->
+<!--    <img src="http://localhost:8888/img/g1.jpg" width="100" height="100"/>-->
+<!--    <img src="http://localhost:8888/img/p3.jpg" width="100" height="100"/>-->
+<!--    <img src="http://localhost:8888/img/p4.jpg" width="100" height="100"/>-->
+<!--    <div>用户名：<input type="text" name="username"/></div>-->
+<!--    <div>密码：<input type="password" name="password"/></div>-->
+<!--    <input type="hidden" th:value="${_csrf.token}" th:name="${_csrf.parameterName}"/>-->
+<!--    <div><input type="submit" value="登录"/></div>-->
+<!--</form>-->
+<!--</body>-->
+<!--</html>-->
